@@ -1,0 +1,264 @@
+@media only screen and (max-width: 600px) {
+   .logo img{
+       width:120px !important;
+   }
+   .navbar-nav{
+    margin-left: -8px !important;
+    margin-top: 10px;
+} 
+.top-header i{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.contact-box{
+    margin: 5px 5px;
+}
+.logo img{
+    object-fit: cover;
+    width:171px;
+}
+.navbar-nav{
+     margin-left:17.438rem;
+  
+}
+.inner-header{
+    z-index: 1000;
+}
+li.nav-item {
+    margin-left:10px;
+}
+.navbar-nav .nav-link{
+    padding:15px;
+}
+.nav-item{ 
+    border-bottom:1px solid #fff;
+    background-color:#8f0d3d;
+}
+.nav-item:hover{
+     background-color: #fff;
+     color: #8f0d3d !important;
+    
+}
+.aboutBox {
+    margin-bottom: 10px;
+    padding: 11px 5px !important;
+}
+.navbar-light .navbar-toggler{
+    margin: 10px;
+    color: rgb(255 255 255);
+    border-color: rgb(255 248 248)
+}
+.nav-link:hover::after{
+    position: absolute; 
+     bottom:0;
+    left: 0;
+    width: none;
+    height: 0px;
+    background: rgba(255, 255, 255, 0.322);
+    content: ' ';
+    
+}
+.w-100{
+    height:450px;
+}
+.about-us .container{
+    margin-top: -60px;
+}
+.serviceBox {
+    padding: 10px 28px;
+    height: 234px;
+}
+.our-team img {
+    height: 350px;
+}
+.social-icons i {
+}
+.card {
+    margin-bottom: 10px !important;
+}
+.service-section-box{
+    
+        padding: 10px 14px;
+        height: 325px;
+        border-bottom-color: #8f0d3d;
+}
+.nav {
+      flex-wrap:nowrap
+   
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+}
+.nav-tabs {
+    border-bottom:none;
+}
+.nav-tabs .nav-link {
+    
+     
+   
+     
+    padding: 5px 10px;
+    
+    margin:2px;
+   
+}
+.nav-tabs {
+    padding:5px 0px;
+   
+    align-items:center;
+    justify-content:center;
+  
+}
+.nav-tabs .nav-link{
+    margin:4px;
+}
+}
+@media screen and (max-width:912px) {
+
+    .logo img {
+        width: 186px !important;
+    }
+   .navbar-light .navbar-toggler{
+    margin: 10px;
+    color: rgb(255 255 255);
+    border-color: rgb(255 248 248)
+}
+.navbar-nav{
+    margin-left: -8px !important;
+    margin-top: 10px;
+}
+.nav-item{ 
+    border-bottom:1px solid #fff;
+    background-color:#8f0d3d;
+}
+.nav-item:hover{
+     background-color: #fff;
+     color: #8f0d3d;
+    
+} 
+.navbar-nav .nav-link{
+    padding:15px;
+}
+.nav-link:hover::after{
+    position: absolute; 
+     bottom:0;
+    left: 0;
+    width: none;
+    height: 0px;
+    background: rgba(255, 255, 255, 0.322);
+    content: ' ';
+  
+}
+.w-100 {
+    
+    height: 511px;
+    
+}
+.carousel-caption {
+    bottom: 108PX !important;
+   
+}
+.carousel-caption h2 {
+    font-size: 36px;
+    line-height: 2;
+}
+.carousel-caption p {
+    font-size: 15px;
+    line-height: 1.1;
+}
+.about-us .container {
+  
+     
+    /* filter: brightness(101%); */
+    margin-top: -68px;
+    
+}
+.aboutBox i { 
+    
+    font-size: 17px;
+    margin-bottom: 10px; 
+  
+}
+.aboutBox .title {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 10px 0;    
+      
+}
+.aboutBox .description {
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 1.5;
+    transition: all 0.3s ease 0s;
+}
+.aboutBox {
+    padding: 1px 5px;
+    overflow: hidden;
+    height: 100px;
+}
+.serviceBox {
+    padding:17px 13px;
+    height: 312px;
+   
+}
+.card-1{
+    margin-top: 1rem;
+}
+.card {
+    margin: 0rem;
+     
+}
+.our-team img {
+    height: 350px;
+}
+.our-team .team-prof .post-title {
+    font-size: 17px;
+    
+}
+.our-team .team-prof .post {
+    font-size: 15px;
+     
+}
+.our-team .team_social li {
+    
+margin-right: 0px;
+}
+
+}
+ 
+@media screen and (max-width:1024px){
+    .navbar-nav {
+        margin-left: 93px;
+    }
+    .top-header ul li {
+        margin-left: 0px;
+    }
+    .top-header ul {
+        justify-content: space-around;
+    }
+    .serviceBox {
+        padding: 18px 18px;
+        height: 312px;
+        border-bottom-color: #8f0d3d;
+    }
+    .aboutBox {
+       
+        padding: 10px 5px;
+        height: 132px;
+         
+    }
+    .aboutBox .description {
+        font-size: 14px;
+        
+        line-height: 1.2;
+        /* margin: 0; */
+         
+    }
+}
